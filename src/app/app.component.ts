@@ -11,7 +11,7 @@ title = 'TODOapp';
 arrayDeTarefas: Tarefa[] = [];
 apiURL : string;
 constructor(private http: HttpClient) {
-this.apiURL = 'https://apitarefasmarcelo153036.herokuapp.com';
+this.apiURL = 'https://apitarefasmarcelo153036-998c41d50704.herokuapp.com';
 this.READ_tarefas();
 }
 CREATE_tarefa(descricaoNovaTarefa: string) {
